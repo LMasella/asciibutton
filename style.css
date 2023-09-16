@@ -7,4 +7,29 @@ body {
 }
 #output {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+    #output {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #output {
+        font-size: .6rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #output {
+        font-size: .5rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #output {
+        font-size: .4rem;
+    }
 }
